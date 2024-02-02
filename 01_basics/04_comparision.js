@@ -29,14 +29,14 @@ baiscally categorised in 2 different types on tha basis how they are stored and 
     7 categories : String, Number, Bollean, Null, undefined, Symbol, BigInt
 */
 //example
-const score = 100
-const scoreValue = 100.3
+// const score = 100
+// const scoreValue = 100.3
 
-const isLoggedIn = true;
-let userEmail;
+// const isLoggedIn = true;
+// let userEmail;
 
-const bigNumber =24387873867748n
-console.log(typeof bigNumber);
+// const bigNumber =24387873867748n
+// console.log(typeof bigNumber);
 
 // const id = Symbol('123')
 // const anotherId = Symbol('123')
@@ -48,14 +48,46 @@ console.log(typeof bigNumber);
     Array, Objects, Functions
 */
 
-const heroes = ["shaktiman","naagjraj","doga"] //array
-//object
-let myObj = {
-    name : "krishna",
-    age : 22,
-}
-//Function
+// const heroes = ["shaktiman","naagjraj","doga"] //array
+// //object
+// let myObj = {
+//     name : "krishna",
+//     age : 22,
+// }
+// //Function
 
-const myFunction = function(){
-    console.log("hello world");
-}
+// const myFunction = function(){
+//     console.log("hello world");
+
+
+
+//---###################
+
+// let myName = "krishnaSingh"
+
+// let anotherName = myName
+
+// console.log(anotherName);
+
+// let user1 = {
+//     UserName1 : "Raj" ,
+//     email : "raj@abc.com"
+// }
+
+// let user2 = user1 
+
+
+
+
+// ############################## MEMORY ################
+
+// STACK (primitive) (copy) , HEAP (Non- Primitive) (reference)
+
+let myYoutubeName = "krishnaSingh"
+
+let myGmailName = myYoutubeName
+
+ myGmailName = "singhKrishna"
+
+console.log(myGmailName);
+console.log(myYoutubeName);

@@ -23,3 +23,6 @@ let value = 3;
 let negalue = -value;
 //console.log(negalue); //-3
 
+//##############################
+
+// Stack is used in (Primitive) and Heap is used in (Non Primitive).  
