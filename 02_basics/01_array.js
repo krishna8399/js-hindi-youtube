@@ -1,8 +1,8 @@
 // array
 
-const myArr = [0,1,2,3,4,5] //declaration 1
-const myHeroes = ["shaktiman","nagraj"]
-const myArr1 = new Array(1,2,3,4)
+const myArr = [0, 1, 2, 3, 4, 5] //declaration 1
+const myHeroes = ["shaktiman", "nagraj"]
+const myArr1 = new Array(1, 2, 3, 4)
 
 // console.log(myArr1[1]);
 // array are resizable and can have different type of element
@@ -23,14 +23,14 @@ const myArr1 = new Array(1,2,3,4)
 
 // slice , splice
 
-console.log("A",myArr);
+console.log("A", myArr);
 
-const myNewArr1 = myArr.slice(1,3) 
+const myNewArr1 = myArr.slice(1, 3)
 console.log(myNewArr1);
 
-console.log("B",myArr)
+console.log("B", myArr)
 // splice
-const myNewArr2 = myArr.splice(1,3) 
-console.log("C",myArr)
+const myNewArr2 = myArr.splice(1, 3)
+console.log("C", myArr)
 console.log(myNewArr2);
 
