@@ -5,7 +5,7 @@
 })(); // should end with semicolon
 
 
-//()() // first braclet for func def second is execn call
+//()() // first bracket for func def second is execn call
 
 ( () => {
     console.log(`DB coonected 1`)
