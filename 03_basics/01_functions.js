@@ -39,4 +39,36 @@ function loginUsermessage(username){
 }
 
 //console.log(loginUsermessage("krishna"));
-console.log(loginUsermessage())
+// console.log(loginUsermessage())
+
+// in case we have to add multiple like shopping cart
+
+//function calculateCartPrice (num1){
+function calculateCartPrice (...num1){ // rest operator ...
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500,330))
+
+const user = {
+    username: "krishna",
+    age : 24
+}
+
+function handleObject (anyobject){
+    console.log(`username is ${anyobject.username} who is ${anyobject.age} years old`)
+}
+
+// handleObject(user)
+handleObject({
+    username : "krishna",
+    age : 24
+})
+
+const myNewArray = [200,400,560,500]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray))
